@@ -1,10 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
 import './PrivacyPolicy.css';
+import { Helmet } from 'react-helmet';
 
 const PrivacyPolicy = () => {
     return (
         <div>
+            <Helmet>
+                <title>Bindle - Privacy Policy</title>
+                <meta name="description" content="Discover, connect, and share your love for books with Bindle." />
+            </Helmet>
             <Header />
             <div className="privacy-policy-container">
                 <h1>Privacy Policy</h1>
