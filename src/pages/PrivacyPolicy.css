@@ -1,0 +1,72 @@
+/* Import global styles if needed */
+@import url('../styles/global.css');
+
+/* Style the privacy policy container */
+.privacy-policy-container {
+    max-width: 800px;
+    /* Set a max width to prevent stretching */
+    margin: 20px auto;
+    /* Center the container and add margin */
+    padding: 20px;
+    /* Add padding inside the container */
+    font-family: Arial, sans-serif;
+    /* Set a readable font */
+    line-height: 1.6;
+    /* Increase line height for better readability */
+}
+
+/* Style the headings */
+.privacy-policy-container h1 {
+    font-size: 2em;
+    /* Increase font size for the main heading */
+    margin-bottom: 10px;
+    /* Add space below the heading */
+}
+
+.privacy-policy-container h2 {
+    font-size: 1.5em;
+    /* Adjust font size for secondary headings */
+    margin-top: 20px;
+    /* Add space above the heading */
+    margin-bottom: 10px;
+    /* Add space below the heading */
+}
+
+.privacy-policy-container h3 {
+    font-size: 1.2em;
+    /* Adjust font size for tertiary headings */
+    margin-top: 15px;
+    /* Add space above the heading */
+    margin-bottom: 5px;
+    /* Add space below the heading */
+}
+
+/* Style paragraphs */
+.privacy-policy-container p {
+    margin-bottom: 15px;
+    /* Add space below paragraphs */
+}
+
+/* Style lists */
+.privacy-policy-container ul {
+    padding-left: 20px;
+    /* Add padding to the left of the list */
+}
+
+.privacy-policy-container li {
+    margin-bottom: 10px;
+    /* Add space below list items */
+}
+
+/* Style links */
+.privacy-policy-container a {
+    color: #007bff;
+    /* Set a color for links */
+    text-decoration: underline;
+    /* Underline links */
+}
+
+.privacy-policy-container a:hover {
+    color: #0056b3;
+    /* Darken color on hover */
+}

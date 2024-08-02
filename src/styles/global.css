@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4b39ef;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #4b39ef;
+    box-sizing: border-box;
+}
+
+#app-icon {
+    height: 50px;
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.25rem;
+}
+
+.intro ol {
+    list-style-type: decimal;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.app-store-button img {
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mockup img {
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .app-store-button img {
+        width: 150px;
+    }
+
+    .mockup img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 1.75rem;
+    }
+
+    .intro p {
+        font-size: 0.875rem;
+    }
+
+    .app-store-button img {
+        width: 130px;
+    }
+
+    .mockup img {
+        width: 200px;
+    }
+}

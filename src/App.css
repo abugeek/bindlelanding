@@ -1,0 +1,26 @@
+/* Add the same styles you used before, with the necessary adjustments */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #4b39ef;
+  box-sizing: border-box;
+}
+
+#app-icon {
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Add more styles as needed */
