@@ -23,7 +23,7 @@ const Home = () => {
                     </a>
                 </section>
                 <section className="mockup">
-                    <img src="/images/mockup.png" alt="Phone Mockup" />
+                    <img src="public/images/mockup.webp" alt="Phone Mockup" />
                 </section>
             </main>
         </div>
