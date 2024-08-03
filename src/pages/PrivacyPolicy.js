@@ -2,8 +2,10 @@ import React from 'react';
 import Header from '../components/Header';
 import './PrivacyPolicy.css';
 import { Helmet } from 'react-helmet';
+import usePageTitle from '../hooks/usePageTitle';
 
 const PrivacyPolicy = () => {
+    usePageTitle('Bindle - Privacy Policy');
     return (
         <div>
             <Helmet>

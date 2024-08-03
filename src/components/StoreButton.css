@@ -1,0 +1,18 @@
+.store-button img {
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .store-button img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .store-button img {
+        width: 130px;
+    }
+}

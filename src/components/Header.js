@@ -12,7 +12,7 @@ function Header() {
     return (
         <header>
             <img
-                src="images/logo-dark.png"
+                src="images/logo-dark.webp"
                 alt="Luna Icon"
                 id="app-icon"
                 onClick={handleLogoClick}

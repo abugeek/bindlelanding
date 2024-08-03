@@ -60,12 +60,6 @@ main {
     max-width: 300px;
 }
 
-.app-store-button img {
-    width: 200px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
 .mockup img {
     width: 300px;
     border-radius: 20px;
@@ -86,10 +80,6 @@ main {
         font-size: 1rem;
     }
 
-    .app-store-button img {
-        width: 150px;
-    }
-
     .mockup img {
         width: 250px;
     }
@@ -102,10 +92,6 @@ main {
 
     .intro p {
         font-size: 0.875rem;
-    }
-
-    .app-store-button img {
-        width: 130px;
     }
 
     .mockup img {
