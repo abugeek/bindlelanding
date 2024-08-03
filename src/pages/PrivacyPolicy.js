@@ -217,7 +217,7 @@ const PrivacyPolicy = () => {
                 <ul>
                     <li>
                         By email: <a href="mailto:abudevjourney@gmail.com" style={{ color: 'blue', textDecoration: 'underline' }}>
-                            abudevjourney@gmail.com
+                            support@bindle.uz
                         </a>
                     </li>
                     <li>
