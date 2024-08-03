@@ -22,7 +22,7 @@ const Home = () => {
                 <section className="intro">
                     <h1>Discover, Connect, and Share Your Love for Books with Bindle</h1>
                     <StoreButton
-                        link="https://play.google.com/store/apps/details?id=com.example"
+                        link="https://play.google.com/apps/testing/com.abugeek.bindle"
                         imgSrc="/images/get_google.png"
                         altText="Get it on Google Play"
                     />
