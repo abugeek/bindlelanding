@@ -5,12 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bindle - Home</title>
-
   <!-- Standard Meta Tags -->
   <meta name="description" content="Bindle is an app for book lovers to discover, share, and enjoy books.">
   <meta name="keywords" content="books, reading, book lovers, Bindle, book sharing, book discovery">
   <meta name="author" content="abugeek">
-
   <!-- Open Graph Meta Tags for Facebook and other platforms -->
   <meta property="og:title" content="Bindle - Home">
   <meta property="og:description"
@@ -19,7 +17,6 @@
     content="https://firebasestorage.googleapis.com/v0/b/bindle-8d64d.appspot.com/o/assets%2Flogo.png?alt=media&token=2b937b23-7456-42aa-8fd5-9b03bc7bdc27">
   <meta property="og:url" content="https://www.bindle.uz">
   <meta property="og:type" content="website">
-
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Bindle - Home">
@@ -28,15 +25,37 @@
   <meta name="twitter:image"
     content="https://firebasestorage.googleapis.com/v0/b/bindle-8d64d.appspot.com/o/assets%2Flogo.png?alt=media&token=2b937b23-7456-42aa-8fd5-9b03bc7bdc27">
   <meta name="twitter:url" content="https://www.bindle.uz">
-
   <!-- Favicon -->
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png">
-
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.bindle.uz" />
 </head>
 
 <body>
   <div id="root"></div>
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // https://github.com/rafgraph/spa-github-pages
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
 </body>
 
 </html>
